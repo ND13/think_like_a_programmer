@@ -17,11 +17,11 @@ for i in range(8):
     else:
         for j in range(0, 1+i):
             print('#', end='')
-    print(' row: ', i)
+    print()
 
 
 # Was able to figure this out after reading the explanation in the book
 for i in range(8):
     for j in range(0,4 - abs(4-i)):
         print('#', end='')
-    print(' row = ', i)
+    print()
